@@ -1,46 +1,22 @@
-# Brain Tumor Detection from CT Scans using Machine Learning
+Brain Tumor Detection from CT Scans using Machine Learning
 
-## 📌 Project Overview
+ 📌 Project Overview
 
-This project detects brain tumors using CT scan images with a Convolutional Neural Network (CNN). It uses supervised learning to classify images into tumor and no_tumor categories.
+This project focuses on detecting brain tumors using CT scan images by applying machine learning and deep learning models. It aims to assist radiologists by automating the tumor identification process, improving diagnostic accuracy and reducing human error.
 
-## 🧠 Technologies Used
+ 🎯 Objectives
 
-- Python
-- TensorFlow / Keras
-- OpenCV
-- NumPy, Pandas
-- Scikit-learn
-- Matplotlib
+- Build a classification/segmentation model to detect brain tumors from CT images.
+- Preprocess medical image data for better model accuracy.
+- Evaluate model performance using metrics like accuracy, precision, recall, and F1-score.
 
-## 🗂️ Project Structure
+ 🧠 Technologies Used
 
-- `data/` - for storing CT scan images
-- `notebooks/` - contains the Jupyter notebook for training and testing
-- `models/` - stores trained model files
-- `outputs/` - prediction results, metrics, visualizations
-- `utils/` - helper functions
-- `requirements.txt` - list of dependencies
+- Python 🐍
+- TensorFlow / Keras or PyTorch
+- OpenCV / PIL for image preprocessing
+- NumPy & Pandas
+- Matplotlib / Seaborn for visualization
 
-## 🚀 How to Use
 
-1. Install dependencies:
-```
-pip install -r requirements.txt
-```
-
-2. Run the Jupyter Notebook in `notebooks/tumor_detection.ipynb`.
-
-3. Download dataset and place it under `data/`, structured as:
-```
-data/
-├── tumor/
-├── no_tumor/
-```
-
-4. Train and evaluate the model.
-
-## 📥 Dataset
-
-Use any public CT brain tumor dataset like from [Kaggle](https://www.kaggle.com).
 
